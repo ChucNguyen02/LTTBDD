@@ -11,4 +11,4 @@ Array.prototype.myFind = function(callback) {
 const numbers = [1, 3, 5, 8, 10];
 
 let firstEven = numbers.myFind(c => c % 2 === 0);
-console.log(firstEven); 
+console.log(firstEven);
